@@ -8,7 +8,7 @@ The platform provides institutional-grade fundraising tools, including an **inte
 
 ## 🌐 Live Demo & Preview
 
-- **Live URL:** [Business Nexus Live Preview](https://ais-dev-gc3iivdjiwiqbzhpkauaue-225165532321.asia-southeast1.run.app)
+- **Live URL:** [Business Nexus Live Preview](https://business-nexus-vc-platform.vercel.app/)
 - **Deployment Ready:** Configured for one-click deployment on **Vercel**.
 
 ---
