@@ -10,6 +10,7 @@ The platform provides institutional-grade fundraising tools, including an **inte
 
 - **Live URL:** [Business Nexus Live Preview](https://business-nexus-vc-platform.vercel.app/)
 - **Deployment Ready:** Configured for one-click deployment on **Vercel**.
+- **Vercel AI setup:** Add `GEMINI_API_KEY` in the project's Vercel Environment Variables, enable it for the Production environment, then redeploy. Keep the key server-side; do not use a `VITE_` prefix.
 
 ---
 

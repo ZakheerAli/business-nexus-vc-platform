@@ -1,5 +1,5 @@
 import { GoogleGenAI } from '@google/genai';
-import { generateWithModelFallback, getContextualFallbackResponse } from '../chatHelpers';
+import { generateWithModelFallback, getContextualFallbackResponse } from '../chatHelpers.js';
 
 // Initialize Google Gen AI client
 const aiApiKey = process.env.GEMINI_API_KEY || '';

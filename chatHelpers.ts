@@ -264,12 +264,17 @@ export async function generateWithModelFallback(
   systemInstruction: string
 ): Promise<string | null> {
   const candidateModels = ['gemini-3.8-flash', 'gemini-flash-latest', 'gemini-3.1-flash-lite'];
+  const conversation = [...promptMessages];
+
+  while (conversation[0]?.role === 'model') {
+    conversation.shift();
+  }
 
   for (const model of candidateModels) {
     try {
       const response = await aiClient.models.generateContent({
         model,
-        contents: promptMessages,
+        contents: conversation,
         config: {
           systemInstruction,
           maxOutputTokens: 1000
