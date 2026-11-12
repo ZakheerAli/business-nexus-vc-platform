@@ -1,0 +1,6 @@
+{
+  "name": "Business Nexus",
+  "description": "A professional networking and collaboration platform connecting high-growth entrepreneurs and venture investors with role-specific dashboards, pitch deck showcases, collaboration requests, and real-time chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
